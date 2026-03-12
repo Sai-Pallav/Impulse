@@ -10,79 +10,79 @@ const features = [
   {
     id: 'auto-apply',
     title: 'Auto Apply',
-    description: 'Stop filling out the same forms over and over. Our Auto Apply feature automatically submits your profile to matching jobs with a single click.',
+    description: "Apply to multiple jobs instantly with a single click. Stop filling out the same details repeatedly across different platforms. This feature cuts down manual effort and saves you hours during mass applications. When you apply to dozens of jobs weekly, this tool becomes absolutely necessary.",
     image: 'https://picsum.photos/seed/autoapplyui/1200/900?blur=2',
     icon: <Zap className="w-6 h-6 text-blue-500" />
   },
   {
+    id: 'all-jobs',
+    title: 'All Jobs in One Platform',
+    description: "Find everything listed in one place instead of jumping between different job portals. Stop wasting time searching across multiple websites. You get better visibility by seeing more opportunities at once. Centralized access gives you a real advantage when you are serious about getting placed.",
+    image: 'https://picsum.photos/seed/alljobsui/1200/900?blur=2',
+    icon: <Globe className="w-6 h-6 text-indigo-500" />
+  },
+  {
     id: 'algo-explorer',
     title: 'Algo Explorer',
-    description: 'Master data structures and algorithms with interactive visualizations. Practice coding problems and see how your solutions perform in real-time.',
+    description: "Understand sorting algorithms visually with Algo Explorer. You get to see how the logic works step by step instead of just reading code. This approach builds real conceptual clarity rather than forcing you to memorize patterns. Visualizing the problem helps you truly understand the solution.",
     image: 'https://picsum.photos/seed/algoui/1200/900?blur=2',
     icon: <Code className="w-6 h-6 text-cyan-500" />
   },
   {
-    id: 'learn',
-    title: 'Interactive Learning',
-    description: 'Access hundreds of courses and tutorials designed to help you level up your skills. Track your progress and earn certificates as you learn.',
-    image: 'https://picsum.photos/seed/learnui/1200/900?blur=2',
-    icon: <BookOpen className="w-6 h-6 text-yellow-500" />
-  },
-  {
-    id: 'auto-flow',
-    title: 'Auto Flow',
-    description: 'Design custom workflows to automate your job search. Set up alerts, schedule interviews, and manage your applications all in one place.',
-    image: 'https://picsum.photos/seed/autoflowui/1200/900?blur=2',
-    icon: <Sparkles className="w-6 h-6 text-purple-500" />
-  },
-  {
     id: 'resume',
-    title: 'Resume Builder',
-    description: 'Create a professional resume in minutes. Our AI-powered builder helps you highlight your best skills and experiences to stand out to recruiters.',
+    title: 'Resume Builder and ATS Score',
+    description: "Build a professional resume directly on the platform and get your ATS score instantly. Find out right away if recruiters can actually read your resume. Many students face rejection simply because their resume fails ATS checks and not due to a lack of skills. This tool helps you fix formatting and keyword mistakes early on.",
     image: 'https://picsum.photos/seed/resumeui/1200/900?blur=2',
     icon: <FileText className="w-6 h-6 text-purple-500" />
   },
   {
-    id: 'community',
-    title: 'Vibrant Community',
-    description: 'Connect with thousands of other developers. Share your projects, get feedback, and collaborate on open-source initiatives.',
-    image: 'https://picsum.photos/seed/communityui/1200/900?blur=2',
-    icon: <Users className="w-6 h-6 text-rose-500" />
+    id: 'leaderboard',
+    title: 'Leaderboard',
+    description: "Track your performance and embrace healthy competition. See exactly where you stand compared to other learners based on the problems you solve on the Code page. Competition exposes areas for improvement quickly. Use your ranking as direct feedback to track your progress and stay motivated. Challenge yourself to climb higher and reach the top.",
+    image: 'https://picsum.photos/seed/leaderboardui/1200/900?blur=2',
+    icon: <Trophy className="w-6 h-6 text-yellow-600" />
+  },
+  {
+    id: 'auto-flow',
+    title: 'AutoFlow',
+    description: "Streamline your learning journey with a clear and structured path. Follow a guided flow instead of relying on random preparation. Having a solid direction prevents the common pitfall of studying without a plan. Consistent structure always beats relying purely on motivation.",
+    image: 'https://picsum.photos/seed/autoflowui/1200/900?blur=2',
+    icon: <Sparkles className="w-6 h-6 text-purple-500" />
   },
   {
     id: 'mock-interview',
     title: 'Mock Interview',
-    description: 'Practice your interviewing skills with AI-driven mock interviews. Get real-time feedback on your answers, body language, and pacing.',
+    description: "Practice in a simulated environment to prepare for real interview pressure. Knowing the right answers is completely different from delivering them with confidence. Practice speaking your answers out loud so you are fully prepared for the real thing.",
     image: 'https://picsum.photos/seed/mockinterviewui/1200/900?blur=2',
     icon: <Video className="w-6 h-6 text-indigo-500" />
   },
   {
-    id: 'games',
-    title: 'Games',
-    description: 'Take a break and sharpen your mind with our collection of developer-focused mini-games and logic puzzles.',
-    image: 'https://picsum.photos/seed/gamesui/1200/900?blur=2',
-    icon: <Gamepad2 className="w-6 h-6 text-green-500" />
-  },
-  {
-    id: 'resource',
-    title: 'Resources',
-    description: 'Access a curated library of cheat sheets, architecture diagrams, and best practices to help you build better software.',
-    image: 'https://picsum.photos/seed/resourcesui/1200/900?blur=2',
-    icon: <Layers className="w-6 h-6 text-orange-500" />
-  },
-  {
     id: 'code',
-    title: 'Code Environment',
-    description: 'Write, test, and deploy code directly from your browser. Our cloud-based IDE supports over 40 languages with built-in collaboration.',
+    title: 'CODE Page',
+    description: "Solve data structure and algorithm problems in any programming language. Collaborate with peers to brainstorm solutions and use the interactive whiteboard. Test your code against numerous test cases while tracking your time with integrated timers. You can even listen to your favorite music while coding to maintain focus. We designed this space to make learning engaging and highly effective.",
     image: 'https://picsum.photos/seed/codeui/1200/900?blur=2',
     icon: <Code className="w-6 h-6 text-slate-500" />
   },
   {
-    id: 'leaderboard',
-    title: 'Leaderboard',
-    description: 'Compete with developers worldwide. Climb the ranks by solving challenges, contributing to open source, and helping others.',
-    image: 'https://picsum.photos/seed/leaderboardui/1200/900?blur=2',
-    icon: <Trophy className="w-6 h-6 text-yellow-600" />
+    id: 'community',
+    title: 'COMMUNITY Page',
+    description: "Connect and grow with peers who share your goals. Post messages, discuss new ideas, and set milestones to track your progress. Ask questions and gain valuable insights from fellow learners in active discussions. This collaborative hub lets knowledge and motivation flow freely as you build a strong network.",
+    image: 'https://picsum.photos/seed/communityui/1200/900?blur=2',
+    icon: <Users className="w-6 h-6 text-rose-500" />
+  },
+  {
+    id: 'learn',
+    title: 'LEARN Page',
+    description: "Access a wide range of resources to master any programming language or tech topic. Watch curated video tutorials, read detailed documentation, and test your knowledge with quick quizzes. Follow the learning flowchart so you always know exactly what to study next. We made everything structured and easy to follow so you never run out of ways to improve.",
+    image: 'https://picsum.photos/seed/learnui/1200/900?blur=2',
+    icon: <BookOpen className="w-6 h-6 text-yellow-500" />
+  },
+  {
+    id: 'resource',
+    title: 'RESOURCES Page',
+    description: "Explore a huge variety of study materials right at your fingertips. Access documents, videos, practice exercises, system design guides, and career tools. We organized all the content to help you learn as efficiently as possible. Everything you need to practice coding or understand complex concepts is right here waiting for you.",
+    image: 'https://picsum.photos/seed/resourcesui/1200/900?blur=2',
+    icon: <Layers className="w-6 h-6 text-orange-500" />
   }
 ];
 
@@ -171,7 +171,7 @@ export default function App() {
                 <div 
                   key={feature.id} 
                   id={`feature-${feature.id}`}
-                  className={`flex flex-col ${isEven ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-12 md:gap-24`}
+                  className={`flex flex-col ${isEven ? 'md:flex-row-reverse' : 'md:flex-row'} md:items-center gap-12 md:gap-24`}
                 >
                   {/* Text Content */}
                   <motion.div 
@@ -190,14 +190,6 @@ export default function App() {
                     <p className="text-lg text-slate-600 leading-relaxed">
                       {feature.description}
                     </p>
-                    <ul className="space-y-3 pt-4">
-                      {['Real-time syncing', 'Unlimited history', 'Granular permissions'].map((item, i) => (
-                        <li key={i} className="flex items-center gap-3 text-slate-700 font-medium">
-                          <CheckCircle2 className="w-5 h-5 text-indigo-500" />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
                   </motion.div>
 
                   {/* Image/Mockup */}
